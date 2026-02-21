@@ -1,0 +1,1 @@
+import BaseController from './BaseController.js';import paymentService from '../services/PaymentService.js';class PaymentController extends BaseController {    constructor() {        super(paymentService, 'Payment');    }}export default new PaymentController();

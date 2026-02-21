@@ -1,0 +1,1 @@
+import BaseRepository from './BaseRepository.js';import Payment from '../models/Payment.js';class PaymentRepository extends BaseRepository {    constructor() {        super(Payment);    }}export default new PaymentRepository();

@@ -1,0 +1,1 @@
+import BaseController from './BaseController.js';import groupService from '../services/GroupService.js';class GroupController extends BaseController {    constructor() {        super(groupService, 'Group');    }}export default new GroupController();

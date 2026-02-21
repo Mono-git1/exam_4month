@@ -1,0 +1,1 @@
+export { default as Student } from './Student.js';export { default as Teacher } from './Teacher.js';export { default as Course } from './Course.js';export { default as Group } from './Group.js';export { default as Payment } from './Payment.js';

@@ -1,0 +1,1 @@
+export * as studentValidations from './studentValidator.js';export * as teacherValidations from './teacherValidator.js';export * as courseValidations from './courseValidator.js';export * as groupValidations from './groupValidator.js';export * as paymentValidations from './paymentValidator.js';

@@ -1,0 +1,1 @@
+import BaseService from './BaseService.js';import teacherRepository from '../repositories/TeacherRepository.js';class TeacherService extends BaseService {    constructor() {        super(teacherRepository, 'Teacher');    }}export default new TeacherService();

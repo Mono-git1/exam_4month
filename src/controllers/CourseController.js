@@ -1,0 +1,1 @@
+import BaseController from './BaseController.js';import courseService from '../services/CourseService.js';class CourseController extends BaseController {    constructor() {        super(courseService, 'Course');    }}export default new CourseController();

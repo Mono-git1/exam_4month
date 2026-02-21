@@ -1,0 +1,1 @@
+import BaseRepository from './BaseRepository.js';import Group from '../models/Group.js';class GroupRepository extends BaseRepository {    constructor() {        super(Group);    }}export default new GroupRepository();

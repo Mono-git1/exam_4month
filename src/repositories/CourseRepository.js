@@ -1,0 +1,1 @@
+import BaseRepository from './BaseRepository.js';import Course from '../models/Course.js';class CourseRepository extends BaseRepository {    constructor() {        super(Course);    }}export default new CourseRepository();
